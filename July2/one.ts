@@ -28,7 +28,7 @@ class State {
 
     }
 
-    // method to retrieve the landmark location with RTCSessionDescription.
+    // method to retrieve the landmark location.
     landmarkPicker(destination: string): string[] {
 
         let result: string[] = [];
