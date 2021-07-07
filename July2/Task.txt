@@ -1,9 +1,6 @@
-Assignment(1 July 2021)
+Task(1 July 2021)
 
-1. Refer objects.js and write a function to add a marks field in each student and set them default to 80 for each student. 
-   Use function name as setMarks.
-
-2. Use the following object and pick landmarks and their description from the selected state and store in an array. Return this array as response - 
+1. Use the following object and pick landmarks and their description from the selected state and store in an array. Return this array as response - 
 
       var states = {
         "delhi" : {
@@ -25,4 +22,4 @@ Assignment(1 July 2021)
         }
       }
   
-3. Consider above states object and get all states whose state name start with {a,e,i,o,u}
+2. Consider above states object and get all states whose state name start with {a,e,i,o,u}

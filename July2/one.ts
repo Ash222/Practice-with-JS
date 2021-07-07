@@ -31,7 +31,7 @@ class State {
     // method to retrieve the landmark location.
     landmarkPicker(destination: string): string[] {
 
-        let result: string[] = [];
+        let result: string[] = []; 2
 
         for (let place in this.states) {
 
@@ -83,7 +83,7 @@ class State {
 
 }
 
-const res: string[] = (new State).getStateWithVowels();
+const res: string[] = (new State()).getStateWithVowels();
 
 // for (let x in res) {
 //     console.log(res[x]);
